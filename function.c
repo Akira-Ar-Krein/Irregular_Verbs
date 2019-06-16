@@ -36,20 +36,20 @@ int sum(char *mass2, char *mass3, int i, VerbForms *Verbs)
     if (strcmp(mass2, Verbs[i].second) == 0)
     {
         k = k + 1;
-        printf("True\t");
+        printf("Верно\t");
     }
     else
     {
-        printf("Falls\t");
+        printf("Неверно\t");
     }
     if (strcmp(mass3, Verbs[i].third) == 0)
     {
         k = k + 1;
-        printf("True\n");
+        printf("Верно\n");
     }
     else
     {
-        printf("Falls\n");
+        printf("Неверно\n");
     }
     return k;
 }
