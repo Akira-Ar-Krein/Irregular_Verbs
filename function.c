@@ -65,11 +65,11 @@ int check()
     char mass4[100];
     VerbForms Verbs[100];
     ReadWords(Verbs);
-    for (j = 0; j < 3; j++)
+    for (j = 0; j < 10; j++)
     {
         i = rand() % 60;
         printf("\n%d I: %s (%s)\t\n", j + 1, Verbs[i].first, Verbs[i].translate);
-        printf("Ââåäèòå âòîðóþ è òðåòüþ ôîðìû ãëàãîëà\n");
+        printf("Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð²Ñ‚Ð¾Ñ€ÑƒÑŽ Ð¸ Ñ‚Ñ€ÐµÑ‚ÑŒÑŽ Ñ„Ð¾Ñ€Ð¼Ñ‹ Ð³Ð»Ð°Ð³Ð¾Ð»Ð°\n");
         scanf("%s %s", mass2, mass3);
         k += sum(mass2, mass3, i, Verbs);
     }
